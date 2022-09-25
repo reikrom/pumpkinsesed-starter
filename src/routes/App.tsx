@@ -1,23 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-screen flex w-full justify-center items-center bg-blue-500">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
         <a
-          className="App-link"
+          className="App-link text-4xl"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
+        <p>pumpkinseed starter project</p>
       </header>
     </div>
   );
